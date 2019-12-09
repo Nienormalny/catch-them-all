@@ -1,4 +1,4 @@
-# RUDEL GAME
+# CATCH THEM ALL - MINI GAME
 ### Description
 Simple hi-score based game. 
 Falling down images, that are interactive. You can make best score clickin/taping on every image.

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Simple mini game created for browser. Click start game and catch faces as much as you can. Make your best score and write your name on the TOP 3 hiscore table">
+    <meta name="keywords" content="minigame, webgame, hiscore, mobile, top3, simple, creative, javascript, html, css, game">
+    <title>Catch them all game</title>
+    <!-- <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase.js"></script> -->
+    <script src="./assets/js/vendor/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <link href="./style.css" type="text/css" rel="stylesheet"/>
+    <link rel='icon' href='./favicon.ico' type='image/x-icon'/>
+</head>
+<body>
+    <main draggable="false">
+        <div class="hi-scores">
+            <div id="top-three">
+                <h3 class="top-three collapsed">Top 3 Scores <span class="lines"></span></h3>
+                <div class="to-scroll">
+
+                    <table id="easy" class="collapsed">
+                        <thead>
+                            <tr class="thead-title">
+                                <th colspan="4">easy</th>
+                            </tr>
+                            <tr>
+                                <th>Place</th>
+                                <th>Name</th>
+                                <th>Score</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody class="scores-tbody"></tbody>
+                    </table>
+                    <table id="normal" class="collapsed">
+                        <thead>
+                            <tr class="thead-title">
+                                <th colspan="4">normal</th>
+                            </tr>
+                            <tr>
+                                <th>Place</th>
+                                <th>Name</th>
+                                <th>Score</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody class="scores-tbody"></tbody>
+                    </table>
+                    <table id="hard" class="collapsed">
+                        <thead>
+                            <tr class="thead-title">
+                                <th colspan="4">hard</th>
+                            </tr>
+                            <tr>
+                                <th>Place</th>
+                                <th>Name</th>
+                                <th>Score</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody class="scores-tbody"></tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="most-loved-score">
+                <h3 class="most-loved collapsed">Most loved Avatar <span class="lines"></span></h3>
+                <div class="flex-container collapsed" id="most-loved-tbody"></div>
+            </div>
+        </div>
+        <div class="finish hidden">
+            <h2>congratulations!</h2>
+            <h3>your score</h3>
+            <h2 id="end-score"></h2>
+            <h3>most loved</h3>
+            <div id="most-loved"></div>
+            <button id="continue">Continue</button>
+        </div>
+        <div id="save-score" class="hidden">
+            <h2 id="save-end-score"></h2>
+            <h3>Write your name</h3>
+            <input placeholder="Your name" name="name" id="name">
+            <button id="save">Save your score</button>
+        </div>
+        <div id="score" draggable="false" class="hidden">0</div>
+        <spam id="counter" draggable="false" class="hidden">3</spam>
+        <span id="timer" draggable="false" class="hidden">01:00</span>
+        <div class="game-navigation">
+            <h1 id="title"></h1>
+            <h2 id="subtitle"></h2>
+            <button id="start-game">Start game</button>
+            <button id="change-background">Change background</button>
+            <div id="select-lvl">
+                <span data-lvl="0">easy</span>
+                <span data-lvl="1" class="selected">normal</span>
+                <span data-lvl="2">hard</span>
+            </div>
+        </div>
+        <div class="footer">&copy Nienormalny 2019</div>
+        <div class="youtube"><a href="https://www.youtube.com/watch?v=4YEjC_1gnXg" target="blank"><img src="./assets/images/youtube_social_circle_red.png"></a></div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "rudel-game",
+  "version": "1.0.0",
+  "description": "Mini game for christmas presentation",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nienormalny/rudel-game.git"
+  },
+  "author": "Nienormalny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nienormalny/rudel-game/issues"
+  },
+  "homepage": "https://github.com/Nienormalny/rudel-game#readme"
+}

@@ -19,7 +19,7 @@ Game was created for my presentation at company christmas party.
 
 ### Rules 
 **TAP AS MUCH AS YOU CAN!**
-You have only 01:00 minute.
+You have only 35s.
 
 ### Created with:
 - HTML
@@ -27,3 +27,8 @@ You have only 01:00 minute.
 - JS/jQUERY
 - FIREBASE
 - AFFINITY DESIGNER
+
+### To add own backend - firebase:
+- Just uncomment all commented lines and add your `firebaseConfig` data.
+
+### To add it on your website, please don't delete my copyrights in right corner. It will be nice to put link to my github repo!

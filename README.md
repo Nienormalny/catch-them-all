@@ -28,7 +28,4 @@ You have only 35s.
 - FIREBASE
 - AFFINITY DESIGNER
 
-### To add own backend - firebase:
-- Just uncomment all commented lines and add your `firebaseConfig` data.
-
 ### To add it on your website, please don't delete my copyrights in right corner. It will be nice to put link to my github repo!
